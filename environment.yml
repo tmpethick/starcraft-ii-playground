@@ -1,0 +1,13 @@
+name: sc-ai
+channels:
+- conda-forge
+- anaconda-fusion
+- defaults
+dependencies:
+- keras
+- numpy
+- spyder
+- matplotlib
+- pip:
+  - tensorflow
+  - pysc2
